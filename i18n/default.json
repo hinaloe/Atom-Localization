@@ -34,6 +34,26 @@
             "Close Window":{"value":"Your Translation"}
         }
     },
+        "&File":{
+        "value":"Your Translation",
+        "submenu":{
+            "New &Window":{"value":"Your Translation"},
+            "&New File":{"value":"Your Translation"},
+            "&Open File...":{"value":"Your Translation"},
+            "Open Folder...":{"value":"Your Translation"},
+            "Open...":{"value":"Your Translation"},
+            "Reopen Last &Item":{"value":"Your Translation"},
+            "&Save":{"value":"Your Translation"},
+            "Save &As...":{"value":"Your Translation"},
+            "Save A&ll":{"value":"Your Translation"},
+            "&Preferences...":{"value":"Your Translation"},
+            "&Close Buffer":{"value":"Your Translation"},
+            "Close Pane":{"value":"Your Translation"},
+            "Clos&e Window":{"value":"Your Translation"},
+            "E&xit":{"value":"Your Translation"},
+            "Quit":{"value":"Your Translation"}
+        }
+    },
     "Edit":{
         "value":"Your Translation",
         "submenu":{
@@ -101,6 +121,73 @@
             "Select Grammar":{"value":"Your Translation"}
         }
     },
+        "&Edit":{
+        "value":"Your Translation",
+        "submenu":{
+            "&Undo":{"value":"Your Translation"},
+            "&Redo":{"value":"Your Translation"},
+            "&Cut":{"value":"Your Translation"},
+            "C&opy":{"value":"Your Translation"},
+            "Copy Pat&h":{"value":"Your Translation"},
+            "&Paste":{"value":"Your Translation"},
+            "Select &All":{"value":"Your Translation"},
+            "&Toggle Comments":{"value":"Your Translation"},
+            "Lines":{
+                "value":"Your Translation",
+                "submenu":{
+                    "&Indent":{"value":"Your Translation"},
+                    "&Outdent":{"value":"Your Translation"},
+                    "&Auto Indent":{"value":"Your Translation"},
+                    "Move Line &Up":{"value":"Your Translation"},
+                    "Move Line &Down":{"value":"Your Translation"},
+                    "Du&plicate Lines":{"value":"Your Translation"},
+                    "D&elete Line":{"value":"Your Translation"},
+                    "&Join Lines":{"value":"Your Translation"}
+                }
+            },
+            "Text":{
+                "value":"Your Translation",
+                "submenu":{
+                    "&Upper Case":{"value":"Your Translation"},
+                    "&Lower Case":{"value":"Your Translation"},
+                    "Delete to End of &Word":{"value":"Your Translation"},
+                    "&Delete Line":{"value":"Your Translation"},
+                    "&Transpose":{"value":"Your Translation"}
+                }
+            },
+            "Folding":{
+                "value":"Your Translation",
+                "submenu":{
+                    "&Fold":{"value":"Your Translation"},
+                    "&Unfold":{"value":"Your Translation"},
+                    "Unfold &All":{"value":"Your Translation"},
+                    "Fol&d All":{"value":"Your Translation"},
+                    "Fold Level 1":{"value":"Your Translation"},
+                    "Fold Level 2":{"value":"Your Translation"},
+                    "Fold Level 3":{"value":"Your Translation"},
+                    "Fold Level 4":{"value":"Your Translation"},
+                    "Fold Level 5":{"value":"Your Translation"},
+                    "Fold Level 6":{"value":"Your Translation"},
+                    "Fold Level 7":{"value":"Your Translation"},
+                    "Fold Level 8":{"value":"Your Translation"},
+                    "Fold Level 9":{"value":"Your Translation"}
+                }
+            },
+            "Go to Line":{"value":"Your Translation"},
+            "Reflow Paragraph":{"value":"Your Translation"},
+            "Reflow Selection":{"value":"Your Translation"},
+            "Bookmark":{
+                "value":"Your Translation",
+                "submenu":{
+                    "View All":{"value":"Your Translation"},
+                    "Toggle Bookmark":{"value":"Your Translation"},
+                    "Jump to Next Bookmark":{"value":"Your Translation"},
+                    "Jump to Previous Bookmark":{"value":"Your Translation"}
+                }
+            },
+            "Select Grammar":{"value":"Your Translation"}
+        }
+    },
     "Selection":{
         "value":"Your Translation",
         "submenu":{
@@ -118,7 +205,41 @@
             "Select to End of Line":{"value":"Your Translation"}
         }
     },
+        "&Selection":{
+        "value":"Your Translation",
+        "submenu":{
+            "Add Selection &Above":{"value":"Your Translation"},
+            "Add Selection &Below":{"value":"Your Translation"},
+            "S&plit into Lines":{"value":"Your Translation"},
+            "Select to &Top":{"value":"Your Translation"},
+            "Select to Botto&m":{"value":"Your Translation"},
+            "Select &Line":{"value":"Your Translation"},
+            "Select &Word":{"value":"Your Translation"},
+            "Select to Beginning of W&ord":{"value":"Your Translation"},
+            "Select to Beginning of L&ine":{"value":"Your Translation"},
+            "Select to First &Character of Line":{"value":"Your Translation"},
+            "Select to End of Wor&d":{"value":"Your Translation"},
+            "Select to End of Lin&e":{"value":"Your Translation"}
+        }
+    },
     "Find":{
+        "value":"Your Translation",
+        "submenu":{
+            "Find in Buffer":{"value":"Your Translation"},
+            "Replace in Buffer":{"value":"Your Translation"},
+            "Select Next":{"value":"Your Translation"},
+            "Select All":{"value":"Your Translation"},
+            "Find in Project":{"value":"Your Translation"},
+            "Find Next":{"value":"Your Translation"},
+            "Find Previous":{"value":"Your Translation"},
+            "Replace Next":{"value":"Your Translation"},
+            "Replace All":{"value":"Your Translation"},
+            "Find Buffer":{"value":"Your Translation"},
+            "Find File":{"value":"Your Translation"},
+            "Find Modified File":{"value":"Your Translation"}
+        }
+    },
+    "F&ind":{
         "value":"Your Translation",
         "submenu":{
             "Find in Buffer":{"value":"Your Translation"},
@@ -171,7 +292,46 @@
             "Toggle Tree Side":{"value":"Your Translation"}
         }
     },
+    "&View":{
+        "value":"Your Translation",
+        "submenu":{
+            "&Reload":{"value":"Your Translation"},
+            "Toggle &Full Screen":{"value":"Your Translation"},
+            "Panes":{
+                "value":"Your Translation",
+                "submenu":{
+                    "Split Up":{"value":"Your Translation"},
+                    "Split Down":{"value":"Your Translation"},
+                    "Split Left":{"value":"Your Translation"},
+                    "Split Right":{"value":"Your Translation"},
+                    "Focus Next Pane":{"value":"Your Translation"},
+                    "Focus Previous Pane":{"value":"Your Translation"},
+                    "Focus Pane Above":{"value":"Your Translation"},
+                    "Focus Pane Below":{"value":"Your Translation"},
+                    "Focus Pane On Left":{"value":"Your Translation"},
+                    "Focus Pane On Right":{"value":"Your Translation"},
+                    "Close Pane":{"value":"Your Translation"}
+                }
+            },
+            "Developer":{
+                "value":"Your Translation",
+                "submenu":{
+                    "Open In &Dev Mode...":{"value":"Your Translation"},
+                    "Run &Atom Specs":{"value":"Your Translation"},
+                    "Run Package &Specs":{"value":"Your Translation"},
+                    "Toggle Developer &Tools":{"value":"Your Translation"}
+                }
+            },
+            "Toggle Soft &Wrap":{"value":"Your Translation"},
+            "Toggle Command Palette":{"value":"Your Translation"},
+            "Toggle Tree View":{"value":"Your Translation"},
+            "Toggle Tree Side":{"value":"Your Translation"}
+        }
+    },
     "Packages":{
+        "value":"Your Translation"
+    },
+    "&Packages":{
         "value":"Your Translation"
     },
     "Window":{
@@ -182,10 +342,30 @@
             "Bring All to Front":{"value":"Your Translation"}
         }
     },
+    "&Window":{
+        "value":"Your Translation",
+        "submenu":{
+            "Mi&nimize":{"value":"Your Translation"},
+            "Ma&ximize":{"value":"Your Translation"},
+            "&Zoom":{"value":"Your Translation"},
+            "Bring &All to Front":{"value":"Your Translation"}
+        }
+    },
     "Help":{
         "value":"Your Translation",
         "submenu":{
             "Documentation":{"value":"Your Translation"},
+            "Send Feedback":{"value":"Your Translation"},
+            "Release Notes":{"value":"Your Translation"}
+        }
+    },
+    "&Help":{
+        "value":"Your Translation",
+        "submenu":{
+            "&About Atom...":{"value":"Your Translation"},
+            "View &Terms of Use":{"value":"Your Translation"},
+            "View &License":{"value":"Your Translation"},
+            "&Documentation":{"value":"Your Translation"},
             "Send Feedback":{"value":"Your Translation"},
             "Release Notes":{"value":"Your Translation"}
         }
