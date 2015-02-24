@@ -1,16 +1,24 @@
-[
-  {"language":"Default", "path":"ThereCannotBeSpacesInThePath"},
-  {"language":"Chinese - Simplified", "path":"../i18n/chinese-simplified.json"},
-  {"language":"Chinese - Traditional", "path":"../i18n/chinese-traditional.json"},
-  {"language":"Danish", "path":"../i18n/danish.json"},
-  {"language":"Dutch", "path":"../i18n/dutch.json"},
-  {"language":"German", "path":"../i18n/german.json"},
-  {"language":"French", "path":"../i18n/french.json"},
-  {"language":"Japanese", "path":"../i18n/japanese.json"},
-  {"language":"Portuguese - Brazilian", "path":"../i18n/portuguese-brazilian.json"},
-  {"language":"Swedish", "path":"../i18n/swedish.json"},
-  {"language":"Korean", "path":"../i18n/korean.json"},
-  {"language":"Finnish", "path":"../i18n/finnish.json"},
-  {"language":"Spanish", "path":"../i18n/spanish.json"},
-  {"language":"Ukrainian", "path":"../i18n/ukrainian.json"}
-]
+{
+  "darwin": [
+    {"language":"Default", "path":"ThereCannotBeSpacesInThePath"},
+    {"language":"Chinese - Simplified", "path":"../i18n/darwin/chinese-simplified.json"},
+    {"language":"Chinese - Traditional", "path":"../i18n/darwin/chinese-traditional.json"},
+    {"language":"Danish", "path":"../i18n/darwin/danish.json"},
+    {"language":"Dutch", "path":"../i18n/darwin/dutch.json"},
+    {"language":"German", "path":"../i18n/darwin/german.json"},
+    {"language":"French", "path":"../i18n/darwin/french.json"},
+    {"language":"Japanese", "path":"../i18n/darwin/japanese.json"},
+    {"language":"Portuguese - Brazilian", "path":"../i18n/darwin/portuguese-brazilian.json"},
+    {"language":"Swedish", "path":"../i18n/darwin/swedish.json"},
+    {"language":"Korean", "path":"../i18n/darwin/korean.json"},
+    {"language":"Finnish", "path":"../i18n/darwin/finnish.json"},
+    {"language":"Spanish", "path":"../i18n/darwin/spanish.json"},
+    {"language":"Ukrainian", "path":"../i18n/darwin/ukrainian.json"}
+  ],
+  "win32": [
+    {"language":"japanese", "path":"../i18n/win32/japanese.json"}
+  ],
+  "linux": [
+    
+  ]
+}

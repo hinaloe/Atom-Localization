@@ -5,7 +5,7 @@ module.exports =
 
         if selection == "Default"
             return
-        for l in languages
+        for l in languages[process.platform]
             if l["language"] == selection
                 selection=l['path']
                 dict = require(selection)
@@ -23,7 +23,7 @@ module.exports =
         for menu in atom.menu.template
             if menu.label == "Packages"
                 submenu = {label: "Localization", submenu: []}
-                for lang in languages
+                for lang in languages[process.platform]
                     l = lang["language"]
                     p = lang['path']
                     item = {label: l, command: "localization:#{ p }"}
