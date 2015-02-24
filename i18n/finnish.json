@@ -1,0 +1,194 @@
+{
+  "menu":{
+    "Atom":{
+        "value":"Atom",
+        "submenu":{
+            "About Atom":{"value":"Tietoja"},
+            "View License":{"value":"Näytä lisenssi"},
+            "Preferences...":{"value":"Asetukset"},
+            "Open Your Config":{"value":"Avaa konfiguraatio"},
+            "Open Your Init Script":{"value":"Avaa init tiedosto"},
+            "Open Your Keymap":{"value":"Avaa näppäimistökartta"},
+            "Open Your Snippets":{"value":"Avaa koodipätkät (snippets)"},
+            "Open Your Stylesheet":{"value":"Avaa tyylitiedosto"},
+            "Install Shell Commands":{"value":"Asenna Shell komennot"},
+            "Hide Atom":{"value":"Piilota Atom"},
+            "Hide Others":{"value":"Piilota muut"},
+            "Show All":{"value":"Näytä kaikki"},
+            "Quit":{"value":"Lopeta"},
+            "Check for Update":{"value":"Tarkista päivitykset"}
+        }
+    },
+    "File":{
+        "value":"Tiedosto",
+        "submenu":{
+            "New Window":{"value":"Uusi ikkuna"},
+            "New File":{"value":"Uusi tiedosto"},
+            "Open...":{"value":"Avaa..."},
+            "Reopen Last Item":{"value":"Avaa uudelleen viimeisin kohde"},
+            "Save":{"value":"Tallena"},
+            "Save As...":{"value":"Tallenna nimellä..."},
+            "Save All":{"value":"Tallenna kaikki"},
+            "Close Tab":{"value":"Sulje tiedosto"},
+            "Close Pane":{"value":"Sulje kaikki tiedostot"},
+            "Close Window":{"value":"Sulje ikkuna"}
+        }
+    },
+    "Edit":{
+        "value":"Muokkaa",
+        "submenu":{
+            "Undo":{"value":"Kumoa"},
+            "Redo":{"value":"Tee uudelleen"},
+            "Cut":{"value":"Leikkaa"},
+            "Copy":{"value":"Kopioi"},
+            "Copy Path":{"value":"Kopioi kohde"},
+            "Paste":{"value":"Liitä"},
+            "Select All":{"value":"Valitse kaikki"},
+            "Toggle Comments":{"value":"Näytä/piilota kommentit"},
+            "Lines":{
+                "value":"Rivit",
+                "submenu":{
+                    "Indent":{"value":"Sisennä"},
+                    "Outdent":{"value":"Ulonna"},
+                    "Auto Indent":{"value":"Sisennä automaattisesti"},
+                    "Move Line Up":{"value":"Siirry rivi ylöspäin"},
+                    "Move Line Down":{"value":"Siirrä rivi alaspain"},
+                    "Duplicate Lines":{"value":"Monista rivit"},
+                    "Delete Line":{"value":"Poista rivit"},
+                    "Join Lines":{"value":"Uhdistä rivit"}
+                }
+            },
+            "Text":{
+                "value":"Teksti",
+                "submenu":{
+                    "Upper Case":{"value":"ISOILLA KIRJAIMILLA"},
+                    "Lower Case":{"value":"pienillä kirjaimilla"},
+                    "Delete to End of Word":{"value":"Poista sanan loppuun"},
+                    "Delete Line":{"value":"Poista rivi"},
+                    "Transpose":{"value":"Vaihda paikkaa"}
+                }
+            },
+            "Folding":{
+                "value":"Taitto",
+                "submenu":{
+                    "Fold":{"value":"Taita"},
+                    "Unfold":{"value":"Avaa"},
+                    "Unfold All":{"value":"Avaa kaikki"},
+                    "Fold All":{"value":"Taita kaikki"},
+                    "Fold Level 1":{"value":"Taitto taso 1"},
+                    "Fold Level 2":{"value":"Taitto taso 2"},
+                    "Fold Level 3":{"value":"Taitto taso 3"},
+                    "Fold Level 4":{"value":"Taitto taso 4"},
+                    "Fold Level 5":{"value":"Taitto taso 5"},
+                    "Fold Level 6":{"value":"Taitto taso 6"},
+                    "Fold Level 7":{"value":"Taitto taso 7"},
+                    "Fold Level 8":{"value":"Taitto taso 8"},
+                    "Fold Level 9":{"value":"Taitto taso 9"}
+                }
+            },
+            "Go to Line":{"value":"Siirry riville..."},
+            "Reflow Paragraph":{"value":"Sulata kappale"},
+            "Reflow Selection":{"value":"Sulata valinta"},
+            "Bookmark":{
+                "value":"Kirjanmerkki",
+                "submenu":{
+                    "View All":{"value":"Näytä kaikki"},
+                    "Toggle Bookmark":{"value":"Lisää/poista kirjanmerkki"},
+                    "Jump to Next Bookmark":{"value":"Siirry seuraavaan kirjanmerkkiin"},
+                    "Jump to Previous Bookmark":{"value":"Siirry edelliseen kirjanmerkkiin"}
+                }
+            },
+            "Select Grammar":{"value":"Vaihda koodikieli"}
+        }
+    },
+    "Selection":{
+        "value":"Valinta",
+        "submenu":{
+            "Add Selection Above":{"value":"Lisää valintaan yläosa"},
+            "Add Selection Below":{"value":"Lisää valintaan alaosa"},
+            "Split into Lines":{"value":"Jaa riveiksi"},
+            "Select to Top":{"value":"Valitse ylös asti"},
+            "Select to Bottom":{"value":"Valitse alas asti"},
+            "Select Line":{"value":"Valitse rivi"},
+            "Select Word":{"value":"Valitse sana"},
+            "Select to Beginning of Word":{"value":"Valitse sanan alkuun asti"},
+            "Select to Beginning of Line":{"value":"Valitse rivin alkuun asti"},
+            "Select to First Character of Line":{"value":"Valitse ensimmäiseen merkkiin asti"},
+            "Select to End of Word":{"value":"Valise sanan loppuun asti"},
+            "Select to End of Line":{"value":"Valitse rivin loppuun asti"}
+        }
+    },
+    "Find":{
+        "value":"Etsi",
+        "submenu":{
+            "Find in Buffer":{"value":"Etsi avatuista tiedostoista"},
+            "Replace in Buffer":{"value":"Korvaa"},
+            "Select Next":{"value":"Valitse seuraava"},
+            "Select All":{"value":"Valitse kaikki"},
+            "Find in Project":{"value":"Etsi projektista"},
+            "Find Next":{"value":"Etsi seuraava"},
+            "Find Previous":{"value":"Etsi edellinen"},
+            "Replace Next":{"value":"Korvaa seuraava"},
+            "Replace All":{"value":"Korvaa kaikki"},
+            "Find Buffer":{"value":"Etsi avattu tiedosto"},
+            "Find File":{"value":"Etsi tiedosto"},
+            "Find Modified File":{"value":"Etsi muokattu tiedosto"}
+        }
+    },
+    "View":{
+        "value":"Näytä",
+        "submenu":{
+            "Reload":{"value":"Avaa uudelleen"},
+            "Toggle Full Screen":{"value":"Kokonäyttö"},
+            "Panes":{
+                "value":"Näkymät",
+                "submenu":{
+                    "Split Up":{"value":"Jaa ylöspäin"},
+                    "Split Down":{"value":"Jaa alaspäin"},
+                    "Split Left":{"value":"Jaa vasemmalle"},
+                    "Split Right":{"value":"Jaa oikealle"},
+                    "Focus Next Pane":{"value":"Kohdista seuraava näkymä"},
+                    "Focus Previous Pane":{"value":"Kohdista edellinen näkymä "},
+                    "Focus Pane Above":{"value":"Kohdista näkymä yllä"},
+                    "Focus Pane Below":{"value":"Kohdista näkymä alla"},
+                    "Focus Pane On Left":{"value":"Kohdista näkymä vasemmalla"},
+                    "Focus Pane On Right":{"value":"Kohdista näkymä oikealla"},
+                    "Close Pane":{"value":"Sulje näkymä"}
+                }
+            },
+            "Developer":{
+                "value":"Kehittäjä",
+                "submenu":{
+                    "Open In Dev Mode...":{"value":"Avaa keitystilassa"},
+                    "Run Atom Specs":{"value":"Suorita Atomin tekniset tiedot"},
+                    "Run Package Specs":{"value":"Suorita pakettien tekniset tiedos"},
+                    "Toggle Developer Tools":{"value":"Avaa/sulje kehittäjien työkalut"}
+                }
+            },
+            "Toggle Soft Wrap":{"value":"Tekstin rivitys"},
+            "Toggle Command Palette":{"value":"Avaa/sulje komentokehote"},
+            "Toggle Tree View":{"value":"Avaa/sulje tiedostonäkymä"},
+            "Toggle Tree Side":{"value":"Avaa/sulje tiedostosivu"}
+        }
+    },
+    "Packages":{
+        "value":"Paketit"
+    },
+    "Window":{
+        "value":"Ikkuna",
+        "submenu":{
+            "Minimize":{"value":"Pienennä"},
+            "Zoom":{"value":"Zoomaa"},
+            "Bring All to Front":{"value":"Tuo ikkunat eteen"}
+        }
+    },
+    "Help":{
+        "value":"Apua",
+        "submenu":{
+            "Documentation":{"value":"Doumentaatio"},
+            "Send Feedback":{"value":"Lähetä palautetta"},
+            "Release Notes":{"value":"Julkaisutiedot"}
+        }
+    }
+  }
+}

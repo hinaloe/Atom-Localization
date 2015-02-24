@@ -29,7 +29,7 @@
             "Save":{"value":"Salvar"},
             "Save As...":{"value":"Salvar Como..."},
             "Save All":{"value":"Salvar Tudo"},
-            "Close Buffer":{"value":"Fechar Buffer"},
+            "Close Tab":{"value":"Fechar Buffer"},
             "Close Pane":{"value":"Fechar Painel"},
             "Close Window":{"value":"Fechar Janela"}
         }

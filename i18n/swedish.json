@@ -29,7 +29,7 @@
             "Save":{"value":"Spara"},
             "Save As...":{"value":"Spara Som..."},
             "Save All":{"value":"Spara Alla"},
-            "Close Buffer":{"value":"Stäng Buffer"},
+            "Close Tab":{"value":"Stäng Buffer"},
             "Close Pane":{"value":"Stäng Alla Buffers"},
             "Close Window":{"value":"Stäng Fönster"}
         }

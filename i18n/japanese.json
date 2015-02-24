@@ -30,7 +30,7 @@
             "Save":{"value":"保存"},
             "Save As...":{"value":"別名で保存…"},
             "Save All":{"value":"すべて保存"},
-            "Close Buffer":{"value":"バッファを閉じる"},
+            "Close Tab":{"value":"バッファを閉じる"},
             "Close Pane":{"value":"ペインを閉じる"},
             "Close Window":{"value":"ウインドウを閉じる"}
         }

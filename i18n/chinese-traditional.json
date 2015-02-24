@@ -16,7 +16,9 @@
             "Hide Others":{"value":"隱藏其他"},
             "Show All":{"value":"顯示全部"},
             "Quit":{"value":"結束"},
-            "Check for Update":{"value":"檢查更新"}
+            "Restart and Install Update":{"value":"重新啟動並安裝更新"},
+            "Check for Update":{"value":"檢查更新"},
+            "Downloading Update":{"value":"正在下載更新"}
         }
     },
     "File":{
@@ -29,7 +31,7 @@
             "Save":{"value":"儲存"},
             "Save As...":{"value":"另存為⋯"},
             "Save All":{"value":"儲存全部"},
-            "Close Buffer":{"value":"關閉文件"},
+            "Close Tab":{"value":"關閉頁籤"},
             "Close Pane":{"value":"關閉窗格"},
             "Close Window":{"value":"關閉視窗"}
         }
@@ -40,7 +42,7 @@
             "Undo":{"value":"還原"},
             "Redo":{"value":"重作"},
             "Cut":{"value":"剪下"},
-            "Copy":{"value":"拷貝"},
+            "Copy":{"value":"複製"},
             "Copy Path":{"value":"拷貝路徑"},
             "Paste":{"value":"貼上"},
             "Select All":{"value":"全選"},
@@ -55,7 +57,11 @@
                     "Move Line Down":{"value":"向下移動"},
                     "Duplicate Lines":{"value":"複製"},
                     "Delete Line":{"value":"刪除"},
-                    "Join Lines":{"value":"合併所有行"}
+                    "Join Lines":{"value":"合併所有行"},
+                    "Sort":{"value":"排序"},
+                    "Reverse Sort":{"value":"逆向排序"},
+                    "Unique":{"value":"唯一"},
+                    "Sort (Case Insensitive)":{"value":"排序（不區分大小寫）"}
                 }
             },
             "Text":{
@@ -86,6 +92,7 @@
                     "Fold Level 9":{"value":"折疊 9 層"}
                 }
             },
+            "Select Encoding":{"value":"選擇編碼"},
             "Go to Line":{"value":"移至行"},
             "Reflow Paragraph":{"value":"重排段落"},
             "Reflow Selection":{"value":"重排選取區域"},
@@ -106,6 +113,7 @@
         "submenu":{
             "Add Selection Above":{"value":"向上選取"},
             "Add Selection Below":{"value":"向下選取"},
+            "Single Selection":{"value":"單一選取"},
             "Split into Lines":{"value":"拆成多行"},
             "Select to Top":{"value":"選取至頂端"},
             "Select to Bottom":{"value":"選取至底端"},
@@ -125,7 +133,9 @@
             "Replace in Buffer":{"value":"在文件中取代"},
             "Select Next":{"value":"選擇下一個項目"},
             "Select All":{"value":"選擇全部"},
+            "Toggle Find in Buffer":{"value":"切換文件內搜尋"},
             "Find in Project":{"value":"在專案中搜尋"},
+            "Toggle Find in Project":{"value":"切換專案內搜尋"},
             "Find Next":{"value":"尋找下一個項目"},
             "Find Previous":{"value":"尋找上一個項目"},
             "Replace Next":{"value":"取代下一個項目"},
@@ -160,8 +170,8 @@
                 "value":"開發人員",
                 "submenu":{
                     "Open In Dev Mode...":{"value":"在開發人員模式中開啟⋯"},
-                    "Run Atom Specs":{"value":"執行 Atom Specs"},
-                    "Run Package Specs":{"value":"執行 Package Specs"},
+                    "Run Atom Specs":{"value":"執行 Atom 規格測試"},
+                    "Run Package Specs":{"value":"執行套件規格測試"},
                     "Toggle Developer Tools":{"value":"開發人員工具"}
                 }
             },
@@ -191,7 +201,9 @@
             "submenu":{
               "Go To Matching Bracket":{"value":"移至對應括弧"},
               "Select Inside Brackets":{"value":"選取括弧內容"},
-              "Remove Brackets From Selection":{"value":"移除選取區域的括弧"}
+              "Remove Brackets From Selection":{"value":"移除選取區域的括弧"},
+              "Close Current Tag":{"value":"關閉目前標籤"},
+              "Remove Matching Brackets":{"value":"移除對應括弧"}
             }
           },
           "Command Palette":{
@@ -210,11 +222,18 @@
             "value":"Git Diff",
             "submenu":{
               "Move to Next Diff":{"value":"下一個 Diff"},
-              "Move to Previous Diff":{"value":"前一個 Diff"}
+              "Move to Previous Diff":{"value":"前一個 Diff"},
+              "Toggle Diff List":{"value":"切換 Diff 清單"}
             }
           },
-          "Markdown":{
-            "value":"Markdown",
+          "Keybinding Resolver":{
+            "value":"快速鍵解析",
+            "submenu":{
+              "Toggle":{"value":"切換"}
+            }
+          },
+          "Markdown Preview":{
+            "value":"Markdown 預覽",
             "submenu":{
               "Toggle Preview":{"value":"切換預覽"}
             }
@@ -234,7 +253,8 @@
             "submenu":{
               "Expand":{"value":"展開"},
               "Next Stop":{"value":"下一個停駐點"},
-              "Previous Stop":{"value":"前一個停駐點"}
+              "Previous Stop":{"value":"前一個停駐點"},
+              "Available":{"value":"可用的"}
             }
           },
           "Settings View":{
@@ -278,7 +298,9 @@
           "Whitespace":{
             "value":"空白字元",
             "submenu":{
-              "Remove Trailing Whitespace":{"value":"移除行尾空白"}
+              "Remove Trailing Whitespace":{"value":"移除行尾空白"},
+              "Convert Tabs To Spaces":{"value":"Tab 轉為空白"},
+              "Convert Spaces To Tabs":{"value":"空白轉為 Tab"}
             }
           }
         }
@@ -294,7 +316,13 @@
     "Help":{
         "value":"說明",
         "submenu":{
+            "Terms of Use":{"value":"使用條款"},
             "Documentation":{"value":"輔助文件"},
+            "Roadmap":{"value":"發展藍圖"},
+            "Frequently Asked Questions":{"value":"常見問題"},
+            "Community Discussions":{"value":"社群討論"},
+            "Report Issue":{"value":"回報問題"},
+            "Search Issue":{"value":"搜尋問題"},
             "Send Feedback":{"value":"意見回饋"},
             "Release Notes":{"value":"版本資訊"}
         }

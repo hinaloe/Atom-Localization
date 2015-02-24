@@ -7,7 +7,7 @@
             "View License":{"value":"Lizenz ansehen"},
             "Preferences...":{"value":"Einstellungen..."},
             "Open Your Config":{"value":"Eigene Konfiguration öffnen"},
-            "Open Your Init Script":{"value":"Eigenes Init Skript öffnen"},
+            "Open Your Init Script":{"value":"Eigenes Init-Skript öffnen"},
             "Open Your Keymap":{"value":"Eigene Keymap öffnen"},
             "Open Your Snippets":{"value":"Eigene Snippets öffnen"},
             "Open Your Stylesheet":{"value":"Eigene Stylesheets öffnen"},
@@ -15,7 +15,7 @@
             "Hide Atom":{"value":"Atom ausblenden"},
             "Hide Others":{"value":"Andere ausblenden"},
             "Show All":{"value":"Alle einblenden"},
-            "Quit":{"value":"Schliessen"},
+            "Quit":{"value":"Schließen"},
             "Check for Update":{"value":"Auf Aktualisierung prüfen"}
         }
     },
@@ -29,9 +29,9 @@
             "Save":{"value":"Speichern"},
             "Save As...":{"value":"Speichern als..."},
             "Save All":{"value":"Alle speichern"},
-            "Close Buffer":{"value":"Buffer schliessen"},
-            "Close Pane":{"value":"Pinne schliessen"},
-            "Close Window":{"value":"Fenster schliessen"}
+            "Close Tab":{"value":"Buffer schließen"},
+            "Close Pane":{"value":"Pinne schließen"},
+            "Close Window":{"value":"Fenster schließen"}
         }
     },
     "Edit":{
@@ -48,8 +48,8 @@
             "Lines":{
                 "value":"Zeilen",
                 "submenu":{
-                    "Indent":{"value":"Nach rechts einrücken"},
-                    "Outdent":{"value":"Nach links einrücken"},
+                    "Indent":{"value":"Einrückung erhöhen"},
+                    "Outdent":{"value":"Einrückung verringern"},
                     "Auto Indent":{"value":"Automatisch einrücken"},
                     "Move Line Up":{"value":"Zeile nach oben bewegen"},
                     "Move Line Down":{"value":"Zeile nach unten bewegen"},
@@ -69,21 +69,21 @@
                 }
             },
             "Folding":{
-                "value":"Ein-/ausklappen",
+                "value":"Ein-/Ausklappen",
                 "submenu":{
                     "Fold":{"value":"Einklappen"},
                     "Unfold":{"value":"Ausklappen"},
                     "Unfold All":{"value":"Alles ausklappen"},
                     "Fold All":{"value":"Alles einklappen"},
-                    "Fold Level 1":{"value":"Eben 1 einklappen"},
-                    "Fold Level 2":{"value":"Eben 2 einklappen"},
-                    "Fold Level 3":{"value":"Eben 3 einklappen"},
-                    "Fold Level 4":{"value":"Eben 4 einklappen"},
-                    "Fold Level 5":{"value":"Eben 5 einklappen"},
-                    "Fold Level 6":{"value":"Eben 6 einklappen"},
-                    "Fold Level 7":{"value":"Eben 7 einklappen"},
-                    "Fold Level 8":{"value":"Eben 8 einklappen"},
-                    "Fold Level 9":{"value":"Eben 9 einklappen"}
+                    "Fold Level 1":{"value":"Ebene 1 einklappen"},
+                    "Fold Level 2":{"value":"Ebene 2 einklappen"},
+                    "Fold Level 3":{"value":"Ebene 3 einklappen"},
+                    "Fold Level 4":{"value":"Ebene 4 einklappen"},
+                    "Fold Level 5":{"value":"Ebene 5 einklappen"},
+                    "Fold Level 6":{"value":"Ebene 6 einklappen"},
+                    "Fold Level 7":{"value":"Ebene 7 einklappen"},
+                    "Fold Level 8":{"value":"Ebene 8 einklappen"},
+                    "Fold Level 9":{"value":"Ebene 9 einklappen"}
                 }
             },
             "Go to Line":{"value":"Zu Zeile gehen"},
@@ -121,8 +121,8 @@
     "Find":{
         "value":"Suchen",
         "submenu":{
-            "Find in Buffer":{"value":"In Buffer suchen"},
-            "Replace in Buffer":{"value":"In Buffer ersetzen"},
+            "Find in Buffer":{"value":"In Puffer suchen"},
+            "Replace in Buffer":{"value":"In Puffer ersetzen"},
             "Select Next":{"value":"Nächstes auswählen"},
             "Select All":{"value":"Alle auswählen"},
             "Find in Project":{"value":"In Projekt suchen"},
@@ -130,7 +130,7 @@
             "Find Previous":{"value":"Vorheriges Ergebnis"},
             "Replace Next":{"value":"Nächstes ersetzen"},
             "Replace All":{"value":"Alle ersetzen"},
-            "Find Buffer":{"value":"Buffer suchen"},
+            "Find Buffer":{"value":"Puffer suchen"},
             "Find File":{"value":"Datei suchen"},
             "Find Modified File":{"value":"Veränderte Datei suchen"}
         }
@@ -144,19 +144,19 @@
                 "value":"Entwickler",
                 "submenu":{
                     "Open In Dev Mode...":{"value":"Im Entwicklermodus öffnen..."},
-                    "Run Atom Specs":{"value":"Atom Specs laufen lassen"},
-                    "Run Package Specs":{"value":"Package Specs laufen lassen"},
+                    "Run Atom Specs":{"value":"Atom-Tests laufen lassen"},
+                    "Run Package Specs":{"value":"Pakettests laufen lassen"},
                     "Toggle Developer Tools":{"value":"Developer Tools ein-/ausblenden"}
                 }
             },
-            "Toggle Soft Wrap":{"value":"Soft Wrap ein-/ausschalten"},
-            "Toggle Command Palette":{"value":"Kommandozeile ein-/ausschalten"},
+            "Toggle Soft Wrap":{"value":"Automatischen Umbruch ein-/ausschalten"},
+            "Toggle Command Palette":{"value":"Kommandopalette ein-/ausschalten"},
             "Toggle Tree View":{"value":"Dateibaum ein-/ausschalten"},
             "Toggle Tree Side":{"value":"Dateibaum links/rechts anzeigen"}
         }
     },
     "Packages":{
-        "value":"Packages"
+        "value":"Pakete"
     },
     "Window":{
         "value":"Fenster",
@@ -171,7 +171,7 @@
         "submenu":{
             "Documentation":{"value":"Dokumentation"},
             "Send Feedback":{"value":"Feedback senden"},
-            "Release Notes":{"value":"Release Notes"}
+            "Release Notes":{"value":"Veröffentlichungshinweise"}
         }
     }
   }

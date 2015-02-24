@@ -1,0 +1,238 @@
+{
+  "menu":{
+    "Atom":{
+        "value":"Atom",
+        "submenu":{
+            "About Atom":{"value":"Atom 정보"},
+            "View License":{"value":"라이선스 보기"},
+            "Preferences...":{"value":"환경설정..."},
+            "Open Your Config":{"value":"설정 파일 열기"},
+            "Open Your Init Script":{"value":"초기화 스크립트 열기"},
+            "Open Your Keymap":{"value":"사용자 키맵 열기"},
+            "Open Your Snippets":{"value":"사용자 스니펫 열기"},
+            "Open Your Stylesheet":{"value":"사용자 스타일시트 열기"},
+            "Install Shell Commands":{"value":"쉘 명령어 설치하기"},
+            "Hide Atom":{"value":"Atom 숨기기"},
+            "Hide Others":{"value":"다른 프로그램 숨기기"},
+            "Show All":{"value":"모두 보이기"},
+            "Quit":{"value":"Atom 종료"},
+            "Check for Update":{"value":"업데이트 확인"}
+        }
+    },
+    "File":{
+        "value":"파일",
+        "submenu":{
+            "New Window":{"value":"새 윈도우"},
+            "New File":{"value":"새 파일"},
+            "Open...":{"value":"열기..."},
+            "Reopen Last Item":{"value":"마지막 항목 다시 열기"},
+            "Save":{"value":"저장"},
+            "Save As...":{"value":"다른 이름으로 저장..."},
+            "Save All":{"value":"모두 저장"},
+            "Close Tab":{"value":"파일 닫기"},
+            "Close Pane":{"value":"패널 닫기"},
+            "Close Window":{"value":"윈도우 닫기"}
+        }
+    },
+    "Edit":{
+        "value":"편집",
+        "submenu":{
+            "Undo":{"value":"실행 취소"},
+            "Redo":{"value":"다시 실행"},
+            "Cut":{"value":"잘라내기"},
+            "Copy":{"value":"복사"},
+            "Copy Path":{"value":"경로 복사"},
+            "Paste":{"value":"붙여넣기"},
+            "Select All":{"value":"모두 선택"},
+            "Toggle Comments":{"value":"주석 켜기/끄기"},
+            "Lines":{
+                "value":"줄 편집",
+                "submenu":{
+                    "Indent":{"value":"들여쓰기"},
+                    "Outdent":{"value":"내어쓰기"},
+                    "Auto Indent":{"value":"자동 들여쓰기"},
+                    "Move Line Up":{"value":"한 줄 위로 이동"},
+                    "Move Line Down":{"value":"한 줄 아래로 이동"},
+                    "Duplicate Lines":{"value":"선택한 줄 복제"},
+                    "Delete Line":{"value":"줄 삭제"},
+                    "Join Lines":{"value":"줄 합치기"}
+                }
+            },
+            "Text":{
+                "value":"텍스트",
+                "submenu":{
+                    "Upper Case":{"value":"대문자로"},
+                    "Lower Case":{"value":"소문자로"},
+                    "Delete to End of Word":{"value":"단어 끝까지 지우기"},
+                    "Delete Line":{"value":"줄 지우기"},
+                    "Transpose":{"value":"순서 뒤집기"}
+                }
+            },
+            "Folding":{
+                "value":"코드 접기",
+                "submenu":{
+                    "Fold":{"value":"접기"},
+                    "Unfold":{"value":"펼치기"},
+                    "Unfold All":{"value":"모두 펼치기"},
+                    "Fold All":{"value":"모두 접기"},
+                    "Fold Level 1":{"value":"1수준 접기"},
+                    "Fold Level 2":{"value":"2수준 접기"},
+                    "Fold Level 3":{"value":"3수준 접기"},
+                    "Fold Level 4":{"value":"4수준 접기"},
+                    "Fold Level 5":{"value":"5수준 접기"},
+                    "Fold Level 6":{"value":"6수준 접기"},
+                    "Fold Level 7":{"value":"7수준 접기"},
+                    "Fold Level 8":{"value":"8수준 접기"},
+                    "Fold Level 9":{"value":"9수준 접기"}
+                }
+            },
+            "Go to Line":{"value":"줄 이동"},
+            "Reflow Paragraph":{"value":"문단 정렬"},
+            "Reflow Selection":{"value":"선택영역 정렬"},
+            "Bookmark":{
+                "value":"북마크",
+                "submenu":{
+                    "View All":{"value":"모두 보기"},
+                    "Toggle Bookmark":{"value":"북마크 보이기/숨기기"},
+                    "Jump to Next Bookmark":{"value":"다음 북마크로 이동"},
+                    "Jump to Previous Bookmark":{"value":"이전 북마크로 이동"}
+                }
+            },
+            "Select Grammar":{"value":"문법 선택"}
+        }
+    },
+    "Selection":{
+        "value":"선택",
+        "submenu":{
+            "Add Selection Above":{"value":"위로 선택영역 한 줄 추가"},
+            "Add Selection Below":{"value":"아래로 선택영역 한 줄 추가"},
+            "Single Selection":{"value":"다중 선택 취소"},
+            "Split into Lines":{"value":"여러 줄로 나누기"},
+            "Select to Top":{"value":"문서 상단까지 선택"},
+            "Select to Bottom":{"value":"문서 하단까지 선택"},
+            "Select Line":{"value":"줄 선택"},
+            "Select Word":{"value":"단어 선택"},
+            "Select to Beginning of Word":{"value":"단어 시작까지 선택"},
+            "Select to Beginning of Line":{"value":"줄 시작까지 선택"},
+            "Select to First Character of Line":{"value":"줄의 첫 번째 글자까지 선택"},
+            "Select to End of Word":{"value":"단어 끝까지 선택"},
+            "Select to End of Line":{"value":"줄 끝까지 선택"}
+        }
+    },
+    "Find":{
+        "value":"찾기",
+        "submenu":{
+            "Find in Buffer":{"value":"현재 파일에서 찾기"},
+            "Replace in Buffer":{"value":"현재 파일에서 바꾸기"},
+            "Select Next":{"value":"다음 선택"},
+            "Select All":{"value":"모두 선택"},
+            "Toggle Find in Buffer":{"value":"현재 파일 검색 보이기/숨기기"},
+            "Find in Project":{"value":"현재 프로젝트에서 찾기"},
+            "Toggle Find in Project":{"value":"현재 프로젝트 검색 보이기/숨기기"},
+            "Find Next":{"value":"다음 찾기"},
+            "Find Previous":{"value":"이전 찾기"},
+            "Replace Next":{"value":"다음 바꾸기"},
+            "Replace All":{"value":"모두 바꾸기"},
+            "Find Buffer":{"value":"열린 파일 찾기"},
+            "Find File":{"value":"파일 찾기"},
+            "Find Modified File":{"value":"수정된 파일 찾기"}
+        }
+    },
+    "View":{
+        "value":"보기",
+        "submenu":{
+            "Reload":{"value":"새로 고침"},
+            "Toggle Full Screen":{"value":"전체 화면 시작/종료"},
+            "Panes":{
+                "value":"패널",
+                "submenu":{
+                    "Split Up":{"value":"위로 분할"},
+                    "Split Down":{"value":"아래로 분할"},
+                    "Split Left":{"value":"왼쪽으로 분할"},
+                    "Split Right":{"value":"오른쪽으로 분할"},
+                    "Focus Next Pane":{"value":"다음 패널로 이동"},
+                    "Focus Previous Pane":{"value":"이전 패널로 이동"},
+                    "Focus Pane Above":{"value":"위 패널로 이동"},
+                    "Focus Pane Below":{"value":"아래 패널로 이동"},
+                    "Focus Pane On Left":{"value":"왼쪽 패널로 이동"},
+                    "Focus Pane On Right":{"value":"오른쪽 패널로 이동"},
+                    "Close Pane":{"value":"패널 닫기"}
+                }
+            },
+            "Developer":{
+                "value":"개발자",
+                "submenu":{
+                    "Open In Dev Mode...":{"value":"개발자 모드에서 열기..."},
+                    "Run Atom Specs":{"value":"Atom 스펙 실행"},
+                    "Run Package Specs":{"value":"패키지 스펙 실행"},
+                    "Toggle Developer Tools":{"value":"개발자 도구"}
+                }
+            },
+            "Toggle Soft Wrap":{"value":"자동 줄 바꿈"},
+            "Toggle Command Palette":{"value":"명령어 팔레트"},
+            "Toggle Tree View":{"value":"파일 탐색기"},
+            "Toggle Tree Side":{"value":"파일 탐색기 위치 바꾸기"}
+        }
+    },
+    "Packages":{
+        "value":"패키지",
+        "submenu":{
+            "Bracket Matcher" : {
+                "value" : "일치하는 괄호",
+                "submenu" : {
+                    "Go To Matching Bracket" : {"value":"일치하는 괄호로 이동"},
+                    "Select Inside Brackets" : {"value":"일치하는 괄호까지 선택"},
+                    "Close Current Tag" : {"value":"현재 태그 닫기"}
+                }
+            },
+            "Markdown Preview" : {
+                "value" : "마크다운 미리보기",
+                "submenu" : {
+                    "Toggle Preview" : {"value":"미리보기 보이기/숨기기"}
+                }
+            },
+            "Snippets" : {
+                "value" : "스니펫"
+            },
+            "Styleguide" : {
+                "value" : "스타일 가이드",
+                "submenu" : {
+                    "Show" : {"value":"보기"}
+                }
+            },
+            "Tree View" : {
+                "value" : "파일 탐색기",
+                "submenu" : {
+                    "Focus" : {"value":"초점 이동"},
+                    "Toggle" : {"value":"보이기/숨기기"},
+                    "Reveal Active File" : {"value":"현재 파일 표시"},
+                    "Toggle Tree Side" : {"value":"위치 바꾸기"}
+                }
+            },
+            "Whitespace" : {
+                "value" : "공백",
+                "submenu" : {
+                    "Remove Trailing Whitespace" : {"value":"줄 끝 공백 제거"},
+                    "Convert Tabs To Spaces" : {"value":"탭을 스페이스로 변환"}
+                }
+            }
+        }
+    },
+    "Window":{
+        "value":"윈도우",
+        "submenu":{
+            "Minimize":{"value":"최소화"},
+            "Zoom":{"value":"확대/축소"},
+            "Bring All to Front":{"value":"모두 앞으로 가져오기"}
+        }
+    },
+    "Help":{
+        "value":"도움말",
+        "submenu":{
+            "Documentation":{"value":"Atom 도움말"},
+            "Send Feedback":{"value":"의견 보내기"},
+            "Release Notes":{"value":"릴리스 노트"}
+        }
+    }
+  }
+}

@@ -3,20 +3,20 @@
     "Atom":{
         "value":"Atom",
         "submenu":{
-            "About Atom":{"value":"A propos d'Atom"},
-            "View License":{"value":"Afficher la license"},
-            "Preferences...":{"value":"Préférences..."},
-            "Open Your Config":{"value":"Ouvrir ma Config"},
-            "Open Your Init Script":{"value":"Ouvrir mon script d'initialisation"},
-            "Open Your Keymap":{"value":"Ouvrir mes raccourcis clavier"},
-            "Open Your Snippets":{"value":"Ouvrir mes extraits"},
-            "Open Your Stylesheet":{"value":"Ouvrir mon fichier de styles"},
+            "About Atom":{"value":"À propos d’Atom"},
+            "View License":{"value":"Afficher la licence"},
+            "Preferences...":{"value":"Préférences…"},
+            "Open Your Config":{"value":"Ouvrir la configuration"},
+            "Open Your Init Script":{"value":"Ouvrir le script d’initialisation"},
+            "Open Your Keymap":{"value":"Ouvrir les raccourcis clavier"},
+            "Open Your Snippets":{"value":"Ouvrir les extraits"},
+            "Open Your Stylesheet":{"value":"Ouvrir la feuille de style"},
             "Install Shell Commands":{"value":"Installer les commandes Shell"},
             "Hide Atom":{"value":"Masquer Atom"},
             "Hide Others":{"value":"Masquer les autres"},
             "Show All":{"value":"Afficher tout"},
             "Quit":{"value":"Quitter"},
-            "Check for Update":{"value":"Vérifier les mises à jour"}
+            "Check for Update":{"value":"Rechercher des mises à jour"}
         }
     },
     "File":{
@@ -24,18 +24,18 @@
         "submenu":{
             "New Window":{"value":"Nouvelle fenêtre"},
             "New File":{"value":"Nouveau fichier"},
-            "Open...":{"value":"Ouvrir..."},
+            "Open...":{"value":"Ouvrir…"},
             "Reopen Last Item":{"value":"Ouvrir le dernier fichier"},
-            "Save":{"value":"Sauvegarder"},
-            "Save As...":{"value":"Sauvegarder sous..."},
+            "Save":{"value":"Enregistrer"},
+            "Save As...":{"value":"Enregistrer sous…"},
             "Save All":{"value":"Tout enregistrer"},
-            "Close Buffer":{"value":"Fermer l'onglet"},
+            "Close Tab":{"value":"Fermer l'onglet"},
             "Close Pane":{"value":"Fermer le panneau"},
             "Close Window":{"value":"Fermer la fenêtre"}
         }
     },
     "Edit":{
-        "value":"Edition",
+        "value":"Édition",
         "submenu":{
             "Undo":{"value":"Annuler"},
             "Redo":{"value":"Rétablir"},
@@ -43,8 +43,8 @@
             "Copy":{"value":"Copier"},
             "Copy Path":{"value":"Copier le chemin"},
             "Paste":{"value":"Coller"},
-            "Select All":{"value":"Tout séléctionner"},
-            "Toggle Comments":{"value":"Masquer/Afficher les commentaires"},
+            "Select All":{"value":"Tout sélectionner"},
+            "Toggle Comments":{"value":"Masquer ou afficher les commentaires"},
             "Lines":{
                 "value":"Lignes",
                 "submenu":{
@@ -61,9 +61,9 @@
             "Text":{
                 "value":"Texte",
                 "submenu":{
-                    "Upper Case":{"value":"Majuscules"},
-                    "Lower Case":{"value":"Miniscules"},
-                    "Delete to End of Word":{"value":"Supprimer jusqu'à la fin du mot"},
+                    "Upper Case":{"value":"Mettre en majuscules"},
+                    "Lower Case":{"value":"Mettre en minuscules"},
+                    "Delete to End of Word":{"value":"Supprimer jusqu’à la fin du mot"},
                     "Delete Line":{"value":"Supprimer la ligne"},
                     "Transpose":{"value":"Transposer"}
                 }
@@ -75,15 +75,15 @@
                     "Unfold":{"value":"Déplier"},
                     "Unfold All":{"value":"Tout déplier"},
                     "Fold All":{"value":"Tout replier"},
-                    "Fold Level 1":{"value":"Replier au 1er niveau"},
-                    "Fold Level 2":{"value":"Replier au 2e niveau"},
-                    "Fold Level 3":{"value":"Replier au 3e niveau"},
-                    "Fold Level 4":{"value":"Replier au 4e niveau"},
-                    "Fold Level 5":{"value":"Replier au 5e niveau"},
-                    "Fold Level 6":{"value":"Replier au 6e niveau"},
-                    "Fold Level 7":{"value":"Replier au 7e niveau"},
-                    "Fold Level 8":{"value":"Replier au 8e niveau"},
-                    "Fold Level 9":{"value":"Replier au 9e niveau"}
+                    "Fold Level 1":{"value":"Replier au premier niveau"},
+                    "Fold Level 2":{"value":"Replier au deuxième niveau"},
+                    "Fold Level 3":{"value":"Replier au troisième niveau"},
+                    "Fold Level 4":{"value":"Replier au quatrième niveau"},
+                    "Fold Level 5":{"value":"Replier au cinquième niveau"},
+                    "Fold Level 6":{"value":"Replier au sixième niveau"},
+                    "Fold Level 7":{"value":"Replier au septième niveau"},
+                    "Fold Level 8":{"value":"Replier au huitième niveau"},
+                    "Fold Level 9":{"value":"Replier au neuvième niveau"}
                 }
             },
             "Go to Line":{"value":"Aller à la ligne"},
@@ -92,86 +92,106 @@
             "Bookmark":{
                 "value":"Signets",
                 "submenu":{
-                    "View All":{"value":"Voir tous"},
-                    "Toggle Bookmark":{"value":"Afficher/masquer les signets"},
-                    "Jump to Next Bookmark":{"value":"Signet suivant"},
-                    "Jump to Previous Bookmark":{"value":"Signet précédent"}
+                    "View All":{"value":"Voir tous les signets"},
+                    "Toggle Bookmark":{"value":"Afficher ou masquer les signets"},
+                    "Jump to Next Bookmark":{"value":"Aller au signet suivant"},
+                    "Jump to Previous Bookmark":{"value":"Aller au signet précédent"}
                 }
             },
-            "Select Grammar":{"value":"Séléctionner la grammaire"}
+            "Select Grammar":{"value":"Sélectionner le language"}
         }
     },
     "Selection":{
-        "value":"Séléction",
+        "value":"Sélection",
         "submenu":{
-            "Add Selection Above":{"value":"Ajouter le haut à la séléction"},
-            "Add Selection Below":{"value":"Ajouter le bas à la séléction"},
+            "Add Selection Above":{"value":"Ajouter une sélection au-dessus"},
+            "Add Selection Below":{"value":"Ajouter une sélection en dessous"},
+            "Single Selection":{"value":"Sélection unique"},
             "Split into Lines":{"value":"Séparer en plusieurs lignes"},
-            "Select to Top":{"value":"Séléctionner jusqu'en haut"},
-            "Select to Bottom":{"value":"Séléctionner jusqu'en bas"},
-            "Select Line":{"value":"Séléctionner la ligne"},
-            "Select Word":{"value":"Séléctionner le mot"},
-            "Select to Beginning of Word":{"value":"Séléctionner jusqu'au début du mot"},
-            "Select to Beginning of Line":{"value":"Séléctionner jusqu'au début de la ligne"},
-            "Select to First Character of Line":{"value":"Séléctionner jusqu'au premier caractère de la ligne"},
-            "Select to End of Word":{"value":"Séléctionner jusqu'à la fin du mot"},
-            "Select to End of Line":{"value":"Séléctionner jusqu'à la fin de la ligne"}
+            "Select to Top":{"value":"Sélectionner jusqu’en haut"},
+            "Select to Bottom":{"value":"Sélectionner jusqu’en bas"},
+            "Select Line":{"value":"Sélectionner la ligne"},
+            "Select Word":{"value":"Sélectionner le mot"},
+            "Select to Beginning of Word":{"value":"Sélectionner jusqu’au début du mot"},
+            "Select to Beginning of Line":{"value":"Sélectionner jusqu’au début de la ligne"},
+            "Select to First Character of Line":{"value":"Sélectionner jusqu’au premier caractère de la ligne"},
+            "Select to End of Word":{"value":"Sélectionner jusqu’à la fin du mot"},
+            "Select to End of Line":{"value":"Sélectionner jusqu’à la fin de la ligne"}
         }
     },
     "Find":{
         "value":"Chercher",
         "submenu":{
-            "Find in Buffer":{"value":"Chercher dans l'onglet"},
-            "Replace in Buffer":{"value":"Remplacer dans l'onglet"},
-            "Select Next":{"value":"Séléctionner le suivant"},
-            "Select All":{"value":"Tout séléctionner"},
+            "Find in Buffer":{"value":"Chercher dans l’onglet"},
+            "Replace in Buffer":{"value":"Remplacer dans l’onglet"},
+            "Select Next":{"value":"Sélectionner le suivant"},
+            "Select All":{"value":"Tout sélectionner"},
+            "Toggle Find in Buffer":{"value":"Afficher ou masquer la recherche dans l’onglet"},
             "Find in Project":{"value":"Chercher dans le projet"},
-            "Find Next":{"value":"Chercher suivant"},
-            "Find Previous":{"value":"Chercher précédent"},
+            "Toggle Find in Project":{"value":"Afficher ou masquer la recherche dans le projet"},
+            "Find Next":{"value":"Chercher le suivant"},
+            "Find Previous":{"value":"Chercher le précédent"},
             "Replace Next":{"value":"Remplacer le suivant"},
-            "Replace All":{"value":"Tout Remplacer"},
-            "Find Buffer":{"value":"Chercher l'onglet"},
+            "Replace All":{"value":"Tout remplacer"},
+            "Find Buffer":{"value":"Chercher l’onglet"},
             "Find File":{"value":"Chercher le fichier"},
             "Find Modified File":{"value":"Chercher le fichier modifié"}
         }
     },
     "View":{
-        "value":"Vue",
+        "value":"Affichage",
         "submenu":{
             "Reload":{"value":"Recharger"},
-            "Toggle Full Screen":{"value":"Afficher/Quitter le plein écran"},
+            "Toggle Full Screen":{"value":"Plein écran"},
+           "Panes":{
+                "value":"Panneaux",
+                "submenu":{
+                    "Split Up":{"value":"Séparer en haut"},
+                    "Split Down":{"value":"Séparer en bas"},
+                    "Split Left":{"value":"Séparer à gauche"},
+                    "Split Right":{"value":"Séparer à droite"},
+                    "Focus Next Pane":{"value":"Sélectionner le panneau suivant"},
+                    "Focus Previous Pane":{"value":"Sélectionner le panneau précédent"},
+                    "Focus Pane Above":{"value":"Sélectionner le panneau au-dessus"},
+                    "Focus Pane Below":{"value":"Sélectionner le panneau en dessous"},
+                    "Focus Pane On Left":{"value":"Sélectionner le panneau à gauche"},
+                    "Focus Pane On Right":{"value":"Sélectionner le panneau à droite"},
+                    "Close Pane":{"value":"Fermer le panneau"}
+                }
+            },
             "Developer":{
                 "value":"Développeur",
                 "submenu":{
                     "Open In Dev Mode...":{"value":"Ouvrir en mode développeur"},
-                    "Run Atom Specs":{"value":"Lancer l'inspecteur d'Atom"},
-                    "Run Package Specs":{"value":"Lancer l'inspecteur de paquets"},
-                    "Toggle Developer Tools":{"value":"Afficher/Masquer l'inspecteur web"}
+                    "Run Atom Specs":{"value":"Effectuer les tests d’Atom"},
+                    "Run Package Specs":{"value":"Effectuer les tests des extensions"},
+                    "Toggle Developer Tools":{"value":"Inspecteur web"}
                 }
             },
-            "Toggle Soft Wrap":{"value":"Your Translation"},
-            "Toggle Command Palette":{"value":"Afficher/Masquer la palette de commandes"},
-            "Toggle Tree View":{"value":"Afficher/Masquer la vue en arborescence"},
-            "Toggle Tree Side":{"value":"Afficher/Masquer la colonne de navigation"}
+            "Toggle Soft Wrap":{"value":"Coupure de ligne automatique"},
+            "Toggle Command Palette":{"value":"Palette de commandes"},
+            "Toggle Tree View":{"value":"Vue en arborescence"},
+            "Toggle Tree Side":{"value":"Colonne de navigation"}
         }
     },
     "Packages":{
-        "value":"Paquets"
+        "value":"Extensions"
     },
     "Window":{
         "value":"Fenêtre",
         "submenu":{
-            "Minimize":{"value":"Minimiser"},
-            "Zoom":{"value":"Zoom"},
+            "Minimize":{"value":"Réduire"},
+            "Zoom":{"value":"Agrandir"},
             "Bring All to Front":{"value":"Tout ramener au premier plan"}
         }
     },
     "Help":{
         "value":"Aide",
         "submenu":{
+        	"Terms of Use":{"value":"Conditions d’utilisation"},
             "Documentation":{"value":"Documentation"},
-            "Send Feedback":{"value":"Envoyer vos impressions"},
-            "Release Notes":{"value":"Release Notes"}
+            "Send Feedback":{"value":"Envoyer vos commentaires"},
+            "Release Notes":{"value":"Notes de version"}
         }
     }
   }

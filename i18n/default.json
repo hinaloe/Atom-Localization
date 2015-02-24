@@ -16,7 +16,9 @@
             "Hide Others":{"value":"Your Translation"},
             "Show All":{"value":"Your Translation"},
             "Quit":{"value":"Your Translation"},
-            "Check for Update":{"value":"Your Translation"}
+            "Restart and Install Update":{"value":"Your Translation"},
+            "Check for Update":{"value":"Your Translation"},
+            "Downloading Update":{"value":"Your Translation"}
         }
     },
     "File":{
@@ -29,7 +31,7 @@
             "Save":{"value":"Your Translation"},
             "Save As...":{"value":"Your Translation"},
             "Save All":{"value":"Your Translation"},
-            "Close Buffer":{"value":"Your Translation"},
+            "Close Tab":{"value":"Your Translation"},
             "Close Pane":{"value":"Your Translation"},
             "Close Window":{"value":"Your Translation"}
         }
@@ -106,6 +108,7 @@
                     "Fold Level 9":{"value":"Your Translation"}
                 }
             },
+            "Select Encoding":{"value":"Your Translation"},
             "Go to Line":{"value":"Your Translation"},
             "Reflow Paragraph":{"value":"Your Translation"},
             "Reflow Selection":{"value":"Your Translation"},
@@ -193,6 +196,7 @@
         "submenu":{
             "Add Selection Above":{"value":"Your Translation"},
             "Add Selection Below":{"value":"Your Translation"},
+            "Single Selection":{"value":"Your Translation"},
             "Split into Lines":{"value":"Your Translation"},
             "Select to Top":{"value":"Your Translation"},
             "Select to Bottom":{"value":"Your Translation"},
@@ -229,7 +233,9 @@
             "Replace in Buffer":{"value":"Your Translation"},
             "Select Next":{"value":"Your Translation"},
             "Select All":{"value":"Your Translation"},
+            "Toggle Find in Buffer":{"value":"Your Translation"},
             "Find in Project":{"value":"Your Translation"},
+            "Toggle Find in Project":{"value":"Your Translation"},
             "Find Next":{"value":"Your Translation"},
             "Find Previous":{"value":"Your Translation"},
             "Replace Next":{"value":"Your Translation"},
@@ -354,7 +360,13 @@
     "Help":{
         "value":"Your Translation",
         "submenu":{
+            "Terms of Use":{"value":"Your Translation"},
             "Documentation":{"value":"Your Translation"},
+            "Roadmap":{"value":"Your Translation"},
+            "Frequently Asked Questions":{"value":"Your Translation"},
+            "Community Discussions":{"value":"Your Translation"},
+            "Report Issue":{"value":"Your Translation"},
+            "Search Issue":{"value":"Your Translation"},
             "Send Feedback":{"value":"Your Translation"},
             "Release Notes":{"value":"Your Translation"}
         }

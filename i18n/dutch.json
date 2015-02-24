@@ -29,7 +29,7 @@
             "Save":{"value":"Opslaan"},
             "Save As...":{"value":"Opslaan Als..."},
             "Save All":{"value":"Alles Opslaan"},
-            "Close Buffer":{"value":"Sluit Buffer Af"},
+            "Close Tab":{"value":"Sluit Buffer Af"},
             "Close Pane":{"value":"Sluit Paneel Af"},
             "Close Window":{"value":"Sluit Venster Af"}
         }

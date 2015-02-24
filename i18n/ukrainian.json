@@ -1,0 +1,206 @@
+{
+  "menu":{
+    "Atom":{
+      "value":"Atom",
+      "submenu":{
+        "About Atom":{"value":"Про Atom"},
+        "View License":{"value":"Переглянути Ліцензію"},
+        "Preferences...":{"value":"Налаштування..."},
+        "Open Your Config":{"value":"Задати параметри користувача"},
+        "Open Your Init Script":{"value":"Задати свій скрипт ініціалізації"},
+        "Open Your Keymap":{"value":"Задати свої гарячі клавіші"},
+        "Open Your Snippets":{"value":"Задати власний фрагмент коду"},
+        "Open Your Stylesheet":{"value":"Задати власні стилі"},
+        "Install Shell Commands":{"value":"Встановити команди Shell"},
+        "Hide Atom":{"value":"Приховати Atom"},
+        "Hide Others":{"value":"Приховати інші"},
+        "Show All":{"value":"Показати усе"},
+        "Quit":{"value":"Завершити Atom"},
+        "Restart and Install Update":{"value":"Перезавантажити та встановити оновлення"},
+        "Check for Update":{"value":"Перевірити оновлення"},
+        "Downloading Update":{"value":"Завантажити оновлення"}
+      }
+    },
+    "File":{
+      "value":"Файл",
+      "submenu":{
+        "New Window":{"value":"Нове вікно"},
+        "New File":{"value":"Новий файл"},
+        "Open...":{"value":"Відкрити..."},
+        "Reopen Last Item":{"value":"Останній відкритий"},
+        "Save":{"value":"Зберегти"},
+        "Save As...":{"value":"Зберегти як..."},
+        "Save All":{"value":"Зберегти все"},
+        "Close Tab":{"value":"Закрити вкладку"},
+        "Close Pane":{"value":"Закрити панель"},
+        "Close Window":{"value":"Закрити вікно"}
+      }
+    },
+    "Edit":{
+      "value":"Правка",
+      "submenu":{
+        "Undo":{"value":"Відмінити"},
+        "Redo":{"value":"Повторити"},
+        "Cut":{"value":"Вирізати"},
+        "Copy":{"value":"Копіювати"},
+        "Copy Path":{"value":"Копіювати шлях"},
+        "Paste":{"value":"Вставити"},
+        "Select All":{"value":"Виділити все"},
+        "Toggle Comments":{"value":"Закоментувати"},
+        "Lines":{
+          "value":"Рядки",
+          "submenu":{
+            "Indent":{"value":"Збільшити відступ"},
+            "Outdent":{"value":"Зменшити відступ"},
+            "Auto Indent":{"value":"Автовідступ"},
+            "Move Line Up":{"value":"Перемістити рядок вгору"},
+            "Move Line Down":{"value":"Перемістити рядок вниз"},
+            "Duplicate Lines":{"value":"Повторити рядки"},
+            "Delete Line":{"value":"Видалити рядок"},
+            "Join Lines":{"value":"Об'єднати рядки"}
+          }
+        },
+        "Text":{
+          "value":"Текст",
+          "submenu":{
+            "Upper Case":{"value":"Верхній регістр"},
+            "Lower Case":{"value":"Нижній регістр"},
+            "Delete to End of Word":{"value":"Видалити до кінця слова"},
+            "Delete Line":{"value":"Видалити рядок"},
+            "Transpose":{"value":"Інвертувати"}
+          }
+        },
+        "Folding":{
+          "value":"Згортання коду",
+          "submenu":{
+            "Fold":{"value":"Згорнути"},
+            "Unfold":{"value":"Розгорнути"},
+            "Unfold All":{"value":"Розгорнути все"},
+            "Fold All":{"value":"Згорнути все"},
+            "Fold Level 1":{"value":"Згорнути 1-й рівень"},
+            "Fold Level 2":{"value":"Згорнути 2-й рівень"},
+            "Fold Level 3":{"value":"Згорнути 3-й рівень"},
+            "Fold Level 4":{"value":"Згорнути 4-й рівень"},
+            "Fold Level 5":{"value":"Згорнути 5-й рівень"},
+            "Fold Level 6":{"value":"Згорнути 6-й рівень"},
+            "Fold Level 7":{"value":"Згорнути 7-й рівень"},
+            "Fold Level 8":{"value":"Згорнути 8-й рівень"},
+            "Fold Level 9":{"value":"Згорнути 9-й рівень"}
+          }
+        },
+        "Select Encoding":{"value":"Вибрати кодування"},
+        "Go to Line":{"value":"Перейти до рядка"},
+        "Reflow Paragraph":{"value":"Перекомпонувати абзац"},
+        "Reflow Selection":{"value":"перекомпонувати виділене"},
+        "Bookmark":{
+          "value":"Закладки",
+          "submenu":{
+            "View All":{"value":"Переглянути все"},
+            "Toggle Bookmark":{"value":"Додати/видалити закладку"},
+            "Jump to Next Bookmark":{"value":"Перейти до наступної закладки"},
+            "Jump to Previous Bookmark":{"value":"Перейти до попередньої закладки"}
+          }
+        },
+        "Select Grammar":{"value":"Вибрати синтаксис"}
+      }
+    },
+    "Selection":{
+      "value":"Виділення",
+      "submenu":{
+        "Add Selection Above":{"value":"Додати попередній рядок"},
+        "Add Selection Below":{"value":"Додати наступний рядок"},
+        "Single Selection":{"value":"Скасувати множинне виділення"},
+        "Split into Lines":{"value":"Розділити по рядках"},
+        "Select to Top":{"value":"Виділити до початку"},
+        "Select to Bottom":{"value":"Виділити до кінця"},
+        "Select Line":{"value":"Виділити рядок"},
+        "Select Word":{"value":"Виділити слово"},
+        "Select to Beginning of Word":{"value":"Виділити до початку слова"},
+        "Select to Beginning of Line":{"value":"Виділити до початку рядка"},
+        "Select to First Character of Line":{"value":"Виділити до першого символу в рядку"},
+        "Select to End of Word":{"value":"Виділити до кінця слова"},
+        "Select to End of Line":{"value":"Виділити до кінця рядка"}
+      }
+    },
+    "Find":{
+      "value":"Пошук",
+      "submenu":{
+        "Find in Buffer":{"value":"Знайти в файлі"},
+        "Replace in Buffer":{"value":"Замінити у файлі"},
+        "Select Next":{"value":"Виділити наступне"},
+        "Select All":{"value":"Виділити все"},
+        "Toggle Find in Buffer":{"value":"Панель пошуку"},
+        "Find in Project":{"value":"Знайти в проекті"},
+        "Toggle Find in Project":{"value":"Пошук по проекту"},
+        "Find Next":{"value":"Знайти наступний"},
+        "Find Previous":{"value":"знайти попередній"},
+        "Replace Next":{"value":"Замінити наступне"},
+        "Replace All":{"value":"Замінити все"},
+        "Find Buffer":{"value":"Знайти відкритий файл"},
+        "Find File":{"value":"Знайти файл"},
+        "Find Modified File":{"value":"Знайти змінений файл"}
+      }
+    },
+    "View":{
+      "value":"Вид",
+      "submenu":{
+        "Reload":{"value":"Перезавантажити"},
+        "Toggle Full Screen":{"value":"Повноекранний режим"},
+        "Panes":{
+          "value":"Панелі",
+          "submenu":{
+            "Split Up":{"value":"Панель зверху"},
+            "Split Down":{"value":"Панель знизу"},
+            "Split Left":{"value":"Панель зліва"},
+            "Split Right":{"value":"Панель праворуч"},
+            "Focus Next Pane":{"value":"Наступна панель"},
+            "Focus Previous Pane":{"value":"Попередня панель"},
+            "Focus Pane Above":{"value":"Панель вище"},
+            "Focus Pane Below":{"value":"Панель нижче"},
+            "Focus Pane On Left":{"value":"Панель лівіше"},
+            "Focus Pane On Right":{"value":"Панель правіше"},
+            "Close Pane":{"value":"Закрити панель"}
+          }
+        },
+        "Developer":{
+          "value":"Розробник",
+          "submenu":{
+            "Open In Dev Mode...":{"value":"Відкрити в режимі розробника..."},
+            "Run Atom Specs":{"value":"Запустити повне тестування"},
+            "Run Package Specs":{"value":"Запустити тестування пакетів"},
+            "Toggle Developer Tools":{"value":"Інструменти розробника"}
+          }
+        },
+        "Toggle Soft Wrap":{"value":"Вписати текст в розміри панелі"},
+        "Toggle Command Palette":{"value":"Командна панель"},
+        "Toggle Tree View":{"value":"Дерево файлів і каталогів"},
+        "Toggle Tree Side":{"value":"Дерево файлів і каталогів зліва/справа"}
+      }
+    },
+    "Packages":{
+      "value":"Пакети"
+    },
+    "Window":{
+      "value":"Вікно",
+      "submenu":{
+        "Minimize":{"value":"Згорнути"},
+        "Zoom":{"value":"Масштаб"},
+        "Bring All to Front":{"value":"Перемістити все на передній план"}
+      }
+    },
+    "Help":{
+      "value":"Довідка",
+      "submenu":{
+        "Terms of Use":{"value":"Умови використання"},
+        "Documentation":{"value":"Документація"},
+        "Roadmap":{"value":"План розвитку"},
+        "Frequently Asked Questions":{"value":"Часті питання"},
+        "Community Discussions":{"value":"Обговорення в спільноті"},
+        "Report Issue":{"value":"Повідомити про проблему"},
+        "Search Issues":{"value":"Пошук проблеми"},
+        "Send Feedback":{"value":"Надіслати відгук"},
+        "Release Notes":{"value":"Примітки до випуску"}
+      }
+    }
+  }
+}

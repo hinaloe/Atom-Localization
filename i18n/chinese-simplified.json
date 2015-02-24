@@ -29,7 +29,7 @@
             "Save":{"value":"保存"},
             "Save As...":{"value":"另存为..."},
             "Save All":{"value":"全部保存"},
-            "Close Buffer":{"value":"关闭当前文件"},
+            "Close Tab":{"value":"关闭当前文件"},
             "Close Pane":{"value":"关闭所有文件"},
             "Close Window":{"value":"关闭窗口"}
         }
