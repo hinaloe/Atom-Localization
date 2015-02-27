@@ -16,9 +16,9 @@
     {"language":"Ukrainian", "path":"../i18n/darwin/ukrainian.json"}
   ],
   "win32": [
-    {"language":"japanese", "path":"../i18n/win32/japanese.json"}
+    {"language":"Japanese", "path":"../i18n/win32/japanese.json"}
   ],
   "linux": [
-    
+
   ]
 }
