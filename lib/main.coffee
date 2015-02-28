@@ -1,4 +1,8 @@
 module.exports =
+    config:
+        CurrentLanguage:
+            type: 'string'
+            default: 'Default'
     loadLocalization: () ->
         languages = require("../languages.json")
         selection = atom.config.get("localization.CurrentLanguage")
@@ -39,14 +43,14 @@ module.exports =
         @addMenu()
 
         setTimeout( ( (father)->
-            if not atom.config.get("localization.CurrentLanguage")
-              atom.config.set("localization.CurrentLanguage", "Default")
             father.loadLocalization()
           )
         ,300,this)
         setTimeout( ( (father)->
-            if not atom.config.get("localization.CurrentLanguage")
-              atom.config.set("localization.CurrentLanguage", "Default")
             father.loadLocalization()
           )
         ,1000,this)
+        atom.config.onDidChange 'localization.CurrentLanguage', ({newValue, oldValue}) =>
+            # console.log("#{oldValue} => #{newValue}")
+            @loadLocalization()
+        return
