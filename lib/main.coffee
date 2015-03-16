@@ -21,13 +21,13 @@ module.exports =
     addMenu: () ->
         languages = require("../languages.json")
         for menu in atom.menu.template
-            if menu.label == "Packages"
+            if menu.label == "Packages" || "&Packages"
                 submenu = {label: "Localization", submenu: []}
                 for lang in languages[process.platform]
                     l = lang["language"]
                     p = lang['path']
-                    item = {label: l, command: "localization:#{ p }"}
-                    atom.workspaceView.command("localization:#{ p }",null,{data:l},((e)=>
+                    item = {label: l, command: "localization:#{ l }"}
+                    atom.workspaceView.command("localization:#{ l }",null,{data:l},((e)=>
                         atom.config.set("localization.CurrentLanguage", e.data)
                         atom.reload()
                         ))
